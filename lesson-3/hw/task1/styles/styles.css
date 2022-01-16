@@ -1,0 +1,38 @@
+.container {
+
+   display: flex;
+   flex-direction: column;
+   height: 640px;
+   justify-content: space-around;
+}
+
+.a,
+.b,
+.c {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.a {
+   height: 200px;
+   background-color: rgba(160, 240, 213, 0.616);
+
+}
+
+.b-c-wrap {
+   display: flex;
+   justify-content: space-between;
+}
+
+.b {
+   width: 64%;
+   height: 400px;
+   background-color: aqua;
+}
+
+.c {
+   width: 35%;
+   height: 400px;
+   background-color: rgb(7, 82, 82);
+}
