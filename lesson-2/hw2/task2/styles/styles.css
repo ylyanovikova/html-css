@@ -1,0 +1,28 @@
+.tittle {
+   text-align: center;
+   background-color: #892726;
+}
+
+.block-2 {
+   background-color: #c0c0c0;
+   padding: 20px;
+}
+
+.block-3 {
+   background-color: #6395ec;
+   padding: 40px 0px;
+}
+
+
+.block-4 {
+   width: 200px;
+   height: 200px;
+   background-color: #6bba67;
+}
+
+.block-5 {
+   width: 200px;
+   height: 200px;
+   background-color: #8886ab;
+   border-radius: 10px;
+}
