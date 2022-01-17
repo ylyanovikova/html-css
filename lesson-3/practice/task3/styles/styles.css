@@ -1,0 +1,58 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   background-color: rgba(88, 141, 112, 0.911);
+}
+
+.main-container {
+   width: 610px;
+   height: 950px;
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+
+}
+
+.home-about-container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.home-about {
+   width: 300px;
+   height: 500px;
+   background-color: rgb(192, 231, 223);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 84px;
+}
+
+.kabobs {
+   width: 610px;
+   height: 200px;
+   background-color: rgb(192, 231, 223);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 84px;
+
+}
+
+.boxes-container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.box {
+   width: 200px;
+   height: 200px;
+   background-color: rgb(192, 231, 223);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 72px;
+}

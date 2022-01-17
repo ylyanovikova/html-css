@@ -47,6 +47,6 @@ body {
 }
 
 .description {
-   display: flex;
-   justify-content: stretch;
+   text-align: justify;
+   margin-right: 10px;
 }
