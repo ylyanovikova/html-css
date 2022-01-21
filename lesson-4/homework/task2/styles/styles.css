@@ -1,0 +1,51 @@
+.main-container {
+   width: 50%;
+   height: 900px;
+   margin: 0 auto;
+   font-size: 46px;
+   color: aliceblue;
+}
+
+.d-f {
+   display: flex;
+}
+
+.column {
+   flex-direction: column;
+}
+
+.jc-space-btw {
+   justify-content: space-between;
+}
+
+.ai-center {
+   align-items: center;
+}
+
+.jc-center {
+   justify-content: center;
+}
+
+.h290 {
+   height: 290px;
+}
+
+.w100pc {
+   width: 100%;
+}
+
+.w31pc {
+   width: 31%;
+}
+
+.brdr-radius5 {
+   border-radius: 5px;
+}
+
+.bgr-blue {
+   background: blue;
+}
+
+.bgr-darkblue {
+   background: rgb(1, 1, 153);
+}
