@@ -1,0 +1,66 @@
+.main-container {
+   width: 50%;
+   height: 900px;
+   margin: 0 auto;
+}
+
+.d-f {
+   display: flex;
+}
+
+.column {
+   flex-direction: column;
+   align-items: center;
+}
+
+.space-btw {
+   justify-content: space-between;
+}
+
+.h100 {
+   height: 100px;
+}
+
+.w100pc {
+   width: 100%;
+}
+
+.bgr-yellow {
+   background-color: rgb(233, 233, 115);
+}
+
+.border1-dark {
+   border: 1px solid rgb(31, 31, 31);
+}
+
+.h620 {
+   height: 620px;
+}
+
+.h600 {
+   height: 600px;
+}
+
+.w25pc {
+   width: 25%;
+}
+
+.bgr-violet {
+   background: violet;
+}
+
+.h280 {
+   height: 280px;
+}
+
+.w73pc {
+   width: 73%;
+}
+
+.bgr-blue {
+   background: rgb(77, 166, 207);
+}
+
+.bgr-light-y {
+   background: rgb(230, 230, 159);
+}
