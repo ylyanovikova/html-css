@@ -1,0 +1,57 @@
+body {
+   font-size: 60px;
+   color: rgb(252, 206, 214);
+   background: rgb(252, 206, 214);
+}
+
+.main {
+   margin: 0 auto;
+   width: 50%;
+   height: 900px;
+}
+
+.home-about {
+   width: 48%;
+   height: 420px;
+}
+
+.kabobs {
+   height: 250px;
+}
+
+.box {
+   width: 30%;
+   height: 200px;
+}
+
+.w-100pc {
+   width: 100%;
+}
+
+.bgr-pink {
+   background: rgb(173, 21, 72);
+}
+
+.bgr-dark-pink {
+   background: rgb(114, 9, 44);
+}
+
+.d-f {
+   display: flex;
+}
+
+.column {
+   flex-direction: column;
+}
+
+.jc-space-btwn {
+   justify-content: space-between;
+}
+
+.jc-center {
+   justify-content: center;
+}
+
+.ai-center {
+   align-items: center;
+}
