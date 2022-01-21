@@ -1,0 +1,69 @@
+body {
+   background: rgb(29, 29, 29);
+   margin: 0 auto;
+   font-size: 72px;
+   color: rgb(207, 146, 212);
+}
+
+.margin10 {
+   margin: 10px;
+}
+
+.w99pc {
+   width: 99%;
+}
+
+.w70pc {
+   width: 70%;
+}
+
+.w29pc {
+   width: 29%;
+}
+
+
+.h300 {
+   height: 300px;
+}
+
+
+.h600 {
+   height: 600px;
+}
+
+.h620 {
+   height: 620px;
+}
+
+.h940 {
+   height: 940px;
+}
+
+.border {
+   border: 2px solid rgb(196, 32, 218);
+   border-radius: 30px;
+}
+
+.d-f {
+   display: flex;
+}
+
+.wrap {
+   flex-wrap: wrap;
+}
+
+.column {
+   flex-direction: column;
+}
+
+.jc-space-btw {
+   justify-content: space-between;
+}
+
+.jc-center {
+   justify-content: center;
+}
+
+.ai-center {
+   align-items: center;
+}
