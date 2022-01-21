@@ -1,0 +1,121 @@
+body {
+   margin: 0 auto;
+   width: 70%;
+}
+
+.d-f {
+   display: flex;
+}
+
+.column {
+   flex-direction: column;
+}
+
+/* .jc-center {
+   justify-content: center;
+} */
+
+.jc-space-btw {
+   justify-content: space-between;
+}
+
+.jc-space-evnl {
+   justify-content: space-evenly;
+}
+
+.ai-center {
+   align-items: center;
+}
+
+.border-rad-40 {
+   border-radius: 40px;
+}
+
+.round {
+   border-radius: 50%;
+}
+
+.w100pc {
+   width: 100%;
+}
+
+.w95pc {
+   width: 95%;
+}
+
+.w250 {
+   width: 250px;
+}
+
+.w230 {
+   width: 230px;
+}
+
+.w300 {
+   width: 300px;
+}
+
+.h800 {
+   height: 800px;
+}
+
+.h50pc {
+   height: 50%;
+}
+
+.h300 {
+   height: 300px;
+}
+
+.h330 {
+   height: 330px;
+}
+
+.h230 {
+   height: 230px;
+}
+
+.bgr-light {
+   background: rgb(120, 169, 197);
+}
+
+.bgr-dark {
+   background: rgb(29, 58, 75);
+}
+
+.font {
+   font-size: 24px;
+   font-style: italic;
+}
+
+.padding10 {
+   box-sizing: border-box;
+   padding: 20px 10px;
+}
+
+.cards2>div {
+   border: 1px solid transparent;
+   transition: 300ms;
+}
+
+.cards2>div:hover {
+   border-color: rgb(150, 217, 255);
+   box-sizing: border-box;
+   box-shadow: 0 0 10px rgb(135, 211, 255);
+   transition: 300ms;
+   cursor: pointer;
+}
+
+.cards-container {
+   transition: 200ms;
+   border: 1px solid transparent;
+   border-radius: 40px;
+}
+
+.cards-container:hover {
+   box-shadow: 0 0 20px rgb(135, 211, 255);
+   border-color: rgb(150, 217, 255);
+   box-sizing: border-box;
+   transition: 400ms;
+   cursor: pointer;
+}
