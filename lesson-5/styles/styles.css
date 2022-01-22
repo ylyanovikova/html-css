@@ -1,0 +1,23 @@
+body {
+   margin-top: 100px;
+}
+
+h1 {
+   color: rgb(32, 32, 32);
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+h2 {
+   text-align: center;
+
+}
+
+a {
+   color: rgb(32, 32, 32);
+   text-decoration: none;
+}
+
+a:hover {
+   text-shadow: 0 0 10px rgb(118, 248, 43);
+}
