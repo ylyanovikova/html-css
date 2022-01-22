@@ -59,6 +59,7 @@ body {
    .main-container {
       width: 576px;
       height: 800px;
+      justify-content: space-evenly;
    }
 
    .b-c-wrap {
@@ -78,5 +79,10 @@ body {
    .c {
       border-radius: 40px;
       transition: 200ms;
+   }
+
+   .a,
+   .c {
+      height: 100px;
    }
 }
