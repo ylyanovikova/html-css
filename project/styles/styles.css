@@ -402,7 +402,6 @@ h1 {
    justify-content: space-between;
    margin: 0 32px 0 148px;
    position: relative;
-
 }
 
 .fifth-screen--card {
@@ -469,6 +468,7 @@ h1 {
    position: absolute;
    bottom: 70px;
    column-gap: 24px;
+
 }
 
 .fifth-screen-btn {
@@ -490,8 +490,12 @@ h1 {
 
 /* Sixth screen */
 .sixth-screen-container {
+   width: 1440px;
+   height: 960px;
    flex-direction: column;
    margin: 0 122px;
+   box-sizing: border-box;
+   padding-top: 96px;
 }
 
 .sixth-screen-tittle {
@@ -554,18 +558,60 @@ h1 {
 .sixth-screen--dropdown-menu--button:hover .sixth-screen--dropdown-menu--button-content {
    display: block;
    top: 80px;
+
 }
 
 .sixth-screen--dropdown-menu--button1:hover .sixth-screen--dropdown-menu--button-content {
    display: block;
    top: 160px;
+
 }
 
 .sixth-screen--dropdown-menu--button2:hover .sixth-screen--dropdown-menu--button-content {
    display: block;
    top: 240px;
+
 }
 
 .learn-more i {
    margin-left: 8px;
+}
+
+/* Seventh screen  */
+.seventh-screen-container {
+   width: 100%;
+   height: 819px;
+   padding: 124px 140px 148px;
+   box-sizing: border-box;
+   align-items: center;
+}
+
+.seventh-screen-container--info {
+   flex-direction: column;
+   justify-content: center;
+}
+
+.seventh-screen-container--tittle {
+   width: 660px;
+   height: 120px;
+   font-size: 34px;
+   line-height: 40px;
+   letter-spacing: 0.34px;
+   color: var(--dark-color);
+   margin: 15px 185px 0 0;
+}
+
+.seventh-screen-container--description {
+   width: 667px;
+   height: 84px;
+   font-size: var(--fz-17);
+   line-height: 28px;
+   color: #375361;
+   margin: 37px 185px 37px 0;
+}
+
+.seventh-screen-container--img {
+   width: 512px;
+   height: 418px;
+   margin-right: 72px;
 }
