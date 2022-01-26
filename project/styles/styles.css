@@ -191,3 +191,89 @@ h1 {
 .buttons-container {
    column-gap: 16px;
 }
+
+/* Second screen */
+
+.second-screen-container {
+   width: 100%;
+   height: 1000px;
+   flex-direction: column;
+}
+
+.second-screen--icons-and-tittle {
+   height: 500px;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0 175px;
+   box-sizing: border-box;
+}
+
+.second-screen--title {
+   width: 547px;
+   height: 96px;
+   margin-bottom: 59px;
+   text-align: center;
+   font-size: 34px;
+   line-height: 40px;
+   color: var(--dark-color);
+}
+
+.second-screen--icons-cintainer {
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   column-gap: 80px;
+   row-gap: 12px;
+}
+
+.second-screen--icon {
+   width: 152px;
+   height: 56px;
+   box-sizing: border-box;
+   border: 1px solid transparent;
+   transition: 300ms;
+   overflow: hidden;
+}
+
+.second-screen--icon:hover {
+   border-radius: 50px;
+   box-shadow: 5px 5px 10px var(--bright-blue-color);
+   transition: 300ms;
+}
+
+/* Second screen blue block */
+.blue-block-container {
+   width: 100%;
+   height: 500px;
+   background: var(--bright-blue-color);
+   border-radius: 10px;
+   align-items: center;
+
+
+}
+
+.biker-img {
+   width: 678px;
+   height: 365px;
+}
+
+
+.blue-block--tittle-container {
+   width: 562px;
+   height: 100%;
+   flex-direction: column;
+}
+
+.blue-block--tittle {
+   font-size: 34px;
+   line-height: 40px;
+   color: var(--dark-color);
+   margin-bottom: 35px;
+}
+
+.blue-block--desc {
+   font-size: var(--fz-22);
+   line-height: 32px;
+   color: var(--dark-color);
+
+}
