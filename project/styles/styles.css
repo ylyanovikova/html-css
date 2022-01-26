@@ -18,7 +18,7 @@ a {
    --violet-color: #BD78F0;
    --fz-17: 17px;
    --fz-22: 22px;
-   --fz: 24px;
+   --fz-24: 24px;
 }
 
 
@@ -304,4 +304,86 @@ h1 {
 
 .third-screen--image {
    margin: 57px 0 113px;
+}
+
+/* Fourth screen */
+.fourth-screen-container {
+   width: 100%;
+   flex-direction: column;
+   position: relative;
+   margin: 0 32px;
+}
+
+.fourht-screen-tittle-img-container {
+   height: 537px;
+   box-sizing: border-box;
+   align-items: center;
+
+}
+
+.fourht-screen--img {
+   width: 562px;
+   height: 409px;
+}
+
+.fourht-screen-tittle-container {
+   margin-left: 136px;
+}
+
+.fourth-screen--target-tittle {
+   width: 485px;
+   height: 192px;
+   font-size: 42px;
+   line-height: 48px;
+   color: var(--dark-color);
+   margin-bottom: 39px;
+}
+
+.fourth-screen--target-descr {
+   width: 550px;
+   height: 56px;
+   font-size: var(--fz-17);
+   line-height: 28px;
+
+}
+
+.fourth-screen--violet-bgr {
+   width: 1260px;
+   height: 537px;
+   border-radius: 10px;
+   background: var(--violet-color);
+   position: absolute;
+   z-index: -1;
+   left: 116px;
+}
+
+.fourht-screen--text-container {
+   height: 594px;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 136px 699px 238px 116px;
+   box-sizing: border-box;
+}
+
+.fourht-screen--text-uppercase {
+   text-transform: uppercase;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 1.4px;
+   color: #6A7981;
+}
+
+.fourht-screen--text-tittle {
+   font-size: 42px;
+   line-height: 48px;
+   letter-spacing: 0.42px;
+   color: var(--dark-color);
+}
+
+.fourht-screen--text-desc {
+   font-size: 22px;
+   line-height: 32px;
+   color: #375361;
+
 }
