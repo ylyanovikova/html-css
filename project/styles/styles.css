@@ -390,8 +390,11 @@ h1 {
 
 /* Fifth screen */
 .fifth-screen-container {
+   height: 1400px;
    flex-direction: column;
+   justify-content: space-between;
    margin: 0 32px 0 148px;
+   position: relative;
 
 }
 
@@ -400,8 +403,7 @@ h1 {
    height: 348px;
    align-items: center;
    align-items: center;
-
-   margin-bottom: 120px;
+   margin-bottom: 100px;
 }
 
 .fifth-screen--card-info {
@@ -441,8 +443,43 @@ h1 {
 
 }
 
+.fifth-screen--card-img img {
+   width: 513px;
+   height: 348px;
+}
+
 .fifth-screen--card-img:hover {
    border: 4px solid var(--bright-blue-color);
    box-shadow: 0 0 10px var(--bright-blue-color);
    transition: 300ms;
 }
+
+.fifth-screen--card-button {
+
+   margin-bottom: 20px;
+}
+
+.fifth-screen--buttons-container {
+   position: absolute;
+   bottom: 70px;
+   column-gap: 24px;
+}
+
+.fifth-screen-btn {
+   height: 16px;
+}
+
+.fifth-screen-btn>button {
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 16px;
+   color: #61757E;
+   border: 1px solid transparent;
+   border-radius: 4px;
+}
+
+.fifth-screen-btn>button:hover {
+   background: #FE9F28;
+}
+
+/* Sixth screen */
