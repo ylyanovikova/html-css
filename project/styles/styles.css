@@ -615,3 +615,78 @@ h1 {
    height: 418px;
    margin-right: 72px;
 }
+
+
+/* Eight screen */
+.eighth-screen-container {
+   width: 100%;
+   height: 710px;
+   box-sizing: border-box;
+   padding: 0 32px 46px;
+   column-gap: 21px;
+   border-radius: 0px 10px 10px 0px;
+
+}
+
+.eighth-screen-container--info {
+   flex-direction: column;
+   justify-content: center;
+   padding: 0 132px 0 116px;
+}
+
+.eighth-screen-container--tittle {
+   width: 314px;
+   height: 64px;
+   font-size: var(--fz-24);
+   line-height: 32px;
+   color: var(--dark-color);
+   margin: 17px 0 27px 0;
+}
+
+.eighth-screen-container--description {
+   width: 325px;
+   height: 84px;
+   font-size: var(--fz-17);
+   line-height: 28px;
+   color: var(--dark-color);
+   margin-bottom: 36px;
+}
+
+.eighth-screen-feedback-container {
+   padding: 79px 121px 118px 116px;
+   box-sizing: border-box;
+   background: url(../images/eight-card-bgr.png);
+}
+
+.eighth-screen-feedback--tittle {
+   width: 557px;
+   height: 240px;
+   font-size: 34px;
+   line-height: 40px;
+   color: #000;
+   margin-bottom: 95px;
+
+}
+
+.eighth-screen-feedback--photo {
+   width: 80px;
+   height: 80px;
+   margin-right: 24px;
+}
+
+.eighth-screen-feedback--card-info {
+   flex-direction: column;
+   justify-content: center;
+}
+
+.eighth-screen-feedback--card-info--tittle {
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--dark-color);
+}
+
+.eighth-screen-feedback--card-info--desc {
+   line-height: 28px;
+   font-size: var(--fz-17);
+   color: #2F3F48;
+}
