@@ -789,3 +789,7 @@ h1 {
    box-shadow: 0 0 20px #51CEBC;
    transition: 300ms;
 }
+
+.mobile-button {
+   display: none;
+}
