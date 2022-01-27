@@ -1,4 +1,8 @@
 /* Main settings */
+html {
+   scroll-behavior: smooth;
+}
+
 .main-wrap {
    width: 1440px;
    margin: 0 auto;
@@ -757,4 +761,31 @@ h1 {
 
 .footer--social-media-icon i {
    font-size: 28px;
+}
+
+.up {
+   width: 50px;
+   height: 50px;
+   border: 1px solid var(--dark-color);
+   border-radius: 50%;
+   bottom: 30px;
+   right: 30px;
+   position: fixed;
+   transition: 300ms;
+}
+
+.up a {
+   color: var(--dark-color);
+   font-size: 22px;
+   border: 10px solid transparent;
+   border-radius: 50%;
+   font-family: system-ui;
+   transition: 300ms;
+}
+
+.up a:hover,
+.up:hover {
+   text-shadow: 0 0 10px #51CEBC;
+   box-shadow: 0 0 20px #51CEBC;
+   transition: 300ms;
 }

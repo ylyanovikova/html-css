@@ -20,7 +20,7 @@
 <body>
    <div class="main-wrap">
       <!-- First screen -->
-      <div class="header-block d-f column">
+      <div id="first-screen" class="header-block d-f column">
          <!-- Navigation -->
          <div class="header-nav d-f  center">
             <!-- Logo -->
@@ -28,11 +28,14 @@
             <!-- Menu -->
             <div class="header-nav-menu">
                <ul class="d-f">
-                  <li class="header-nav-menu--item"><a href="#">Why Sprig?</a></li>
-                  <li class="header-nav-menu--item "><a href="#">Product<i class="fas fa-chevron-down"></i></a></li>
-                  <li class="header-nav-menu--item"><a href="#">Customers<i class="fas fa-chevron-down"></i></a></li>
-                  <li class="header-nav-menu--item"><a href="#">Resources<i class="fas fa-chevron-down"></i></a></li>
-                  <li class="header-nav-menu--item"><a href="#">Plans</a></li>
+                  <li class="header-nav-menu--item"><a href="#second-screen">Why Sprig?</a></li>
+                  <li class="header-nav-menu--item "><a href="#third-screen">Product<i
+                           class="fas fa-chevron-down"></i></a></li>
+                  <li class="header-nav-menu--item"><a href="#fourth-screen">Customers<i
+                           class="fas fa-chevron-down"></i></a></li>
+                  <li class="header-nav-menu--item"><a href="#sixth-screen">Resources<i
+                           class="fas fa-chevron-down"></i></a></li>
+                  <li class="header-nav-menu--item"><a href="#seventh-screen">Plans</a></li>
                </ul>
             </div>
             <!-- Nav buttons -->
@@ -69,7 +72,7 @@
          </div>
       </div>
       <!-- Second screen -->
-      <div class="second-screen-container d-f">
+      <div id="second-screen" class="second-screen-container d-f">
          <!-- Icons with tittle -->
          <div class="second-screen--icons-and-tittle d-f center">
             <div class="second-screen--title">Trusted by the world's most innovative companies</div>
@@ -106,7 +109,7 @@
          </div>
       </div>
       <!-- Third screen -->
-      <div class="third-screen d-f">
+      <div id="third-screen" class="third-screen d-f">
          <div class="third-screen--tittle">Sprig makes it possible to obtain qualitative insights at the speed and
             scale of analytics</div>
          <div class="third-screen--image"><img src="images/third-screen-image.png" alt="analytics"></div>
@@ -115,7 +118,7 @@
 
       </div>
       <!-- Fourth screen -->
-      <div class="fourth-screen-container d-f">
+      <div id="fourth-screen" class="fourth-screen-container d-f">
          <div class="fourht-screen-tittle-img-container d-f">
             <div class="fourht-screen--img"><img src="images/fourth-screen-img.png" alt=""></div>
             <div class="fourht-screen-tittle-container">
@@ -188,7 +191,7 @@
 
       </div>
       <!-- Sixth screen -->
-      <div class="sixth-screen-container d-f">
+      <div id="sixth-screen" class="sixth-screen-container d-f">
          <div class="uppercase-text">Features</div>
          <div class="sixth-screen-tittle">How Sprig delivers accurate, in-depth user insights in real-time</div>
          <div class="sixth-screen--img-dropdown-menu d-f">
@@ -228,9 +231,8 @@
             </div>
          </div>
       </div>
-
       <!-- Seventh screen -->
-      <div class="seventh-screen-container d-f">
+      <div id="seventh-screen" class="seventh-screen-container d-f">
          <div class="seventh-screen-container--info d-f">
             <div class="uppercase-text">INTEGRATIONS</div>
             <div class="seventh-screen-container--tittle">Share data and insights across all of your (other) favorite
@@ -333,6 +335,7 @@
             </div>
          </div>
       </div>
+      <button class="up d-f center"><a href="#first-screen">UP</a> </button>
    </div>
 </body>
 
