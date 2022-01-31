@@ -5,7 +5,7 @@
       max-width: 520px;
       box-sizing: border-box;
       padding: 10px;
-      margin: 0;
+      margin: 0 auto;
    }
 
 
@@ -53,7 +53,7 @@
 
    .header-nav-buttons,
    .header-nav-menu {
-      width: 100vw;
+      width: 100%;
       align-items: center;
       position: fixed;
       transition: left 400ms;
@@ -71,7 +71,7 @@
    .header-nav-buttons {
       height: calc(40vh - 86px);
       flex-direction: column;
-      column-gap: 10px;
+      row-gap: 10px;
       top: 500px;
    }
 
@@ -86,6 +86,10 @@
    .first-screen {
       width: 100%;
       align-items: center;
+   }
+
+   .header-block {
+      width: 100%;
    }
 
    .header-nav {
@@ -164,7 +168,7 @@
    }
 
    .fourht-screen--text-container {
-
+      height: 450px;
       padding: 0;
    }
 
