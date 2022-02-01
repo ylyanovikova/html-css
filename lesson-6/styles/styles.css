@@ -96,6 +96,10 @@ body {
    transition: 300ms;
 }
 
+.mobile-btn {
+   display: none;
+}
+
 /* First screen */
 .first-screen-container {
    box-sizing: border-box;
