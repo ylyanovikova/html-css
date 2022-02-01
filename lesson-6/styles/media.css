@@ -2,8 +2,10 @@
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
    .main-container {
-      min-width: 576px;
-      max-width: 768px;
+      width: 100%;
+      /* width: 576px; */
+      /* min-width: 576px;
+      max-width: 768px; */
    }
 
    .main-wrap {
@@ -85,7 +87,6 @@
    }
 
    .header-menu-container {
-      display: none;
       position: fixed;
       left: -100%;
       top: 95px;
@@ -117,6 +118,10 @@
       flex-direction: column;
       font-size: x-small;
       padding: 0;
+   }
+
+   .first-screen--img img {
+      width: 550px;
    }
 
    /* Second screen  */
@@ -155,7 +160,11 @@
    }
 
    .fourth-screen--companies-img {
-      margin: 0;
+      margin: 0 auto;
+   }
+
+   .fourth-screen--companies-img img {
+      width: 500px;
    }
 
    .fourth-screen--hub-img {
@@ -172,7 +181,7 @@
       padding: 89px 90px;
       background: #8BD4D6;
       border-radius: 10px;
-      margin: 20 auto;
+      margin: 30px auto;
    }
 
    .fourth-screen--blue-block--tittle {
